@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat:wght@700&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+body{
+    background-color:#212653;
+    height: 120vh;
+}
+
+header{
+    min-height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login_btn{
+    background-color: rgb(26, 29, 53);
+    width: 133px;
+    height: 46px;
+    color: #FFF;
+    font-size: 17px;
+    letter-spacing: 0.51px;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(255, 255, 255, 0.44);
+    background: rgba(0, 0, 0, 0.44);
+}
+
+
+/* Header end */
+
+
+
+/* main start */
+
+.content{
+    margin-left: 124px;
+    margin-top: 130px;
+}
+
+.header{
+    width: 636px;
+    height: 124px;
+}
+
+.content h2{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.56px;
+}
+
+.subscriptions{
+    display: flex;
+}
+
+.subscription-1{
+    padding-top: 38px;
+}
+
+.subscription-2{
+    padding-top: 38px;
+    padding-left: 45px ;
+}
+
+.cost{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.26px;
+}
+
+.small-font {
+    color: #798184;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;  
+}
+
+.subscription_btn button{
+    width: 425px;
+    height: 78px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #0094FF 16.44%, #0061D3 99.3%);
+    color: #FFF;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Economy{
+    padding-top: 21px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.51px;
+}
+
+
+.block-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 124px;
+}
+
+.block-2 .header{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 99px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.97px;
+}
+
+.rules{
+    width: 583px;
+    height: 315px;
+    margin-right: 59px ;
+}
+
+.rules p{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.51px;
+}
+
+.rules li{
+    color: #969EA0;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.51px;
+}
+
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 51px;
+}
+

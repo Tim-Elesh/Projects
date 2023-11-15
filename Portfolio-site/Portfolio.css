@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope" ;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background: rgba(50, 50, 50, 0.70);
+    height: 100px;
+}
+
+.logo{
+    color: #DEDEDE;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.navbar{
+    margin-right: 109px ;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar li a{
+    color: #DEDEDE;
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: #BC2041;
+}
+
+
+/*main start*/
+
+main{
+    background-color: #202020;
+    height: 4050px;
+    width: 100%;
+}
+
+.content{
+    display: flex ;
+    padding-top: 140px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.information h2{
+    width: 824px;
+    height: 210px;
+    color: #DEDEDE;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 70px
+}
+
+.information p{
+    color: #959595;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 36px;
+    width: 824px;
+    height: 108px;
+    padding-top: 24px;
+}
+
+.information .information_btn{
+    width: 400px;
+    height: 64px;
+    padding: 16px 48px;
+    color: #FFF;
+    background-color: #9d9d9d9d;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 64px;
+}
+
+.photo{
+    margin-left: 25%;
+}
+
+/* block 1 end */
+
+.arrow{
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.arrow svg{
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow p{
+    color: #DEDEDE;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+.images{
+    margin-top: 80px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px ;
+}
+
+.images img{
+    width: 612px;
+    height: 888px;
+}
+
+
+
+.Explorations{
+    margin-left: 20px;
+    margin-top: 240px;
+}
+
+.Explorations_header h3{
+    color: #DEDEDE;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.Explorations_images{
+    padding-top: 62px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Explorations_images img{
+    width: 400px;
+    height: 408px;
+}
+
+
+
+.Projects{
+    margin-top: 240px;
+    margin-left: 20px;
+}
+
+.Projects_header{
+    color: #DEDEDE;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.Projects_images{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;  
+}
+
+.Projects_images img{
+    width: 400px;
+    height: 560px;
+}
+
+
+.Contact{
+    margin-top: 240px;
+}
+
+.Contact_header{
+    color: #DEDEDE;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.Contact_text{
+    color: #959595;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    padding-top: 24px;
+}
+
+.Contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact_btn button{
+    width: 400px;
+    height: 64px;
+    padding: 16px 16px;
+    color: #FFF;
+    background-color: #9d9d9d9d;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 64px;
+}
+
+
+/* main end */
+
+
+
+/* footer start*/
+
+footer{
+    min-height: 150px;
+    background-color: #2E3034;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_text{
+    color: #959595;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px; 
+    letter-spacing: -0.5px;
+    margin-left: 20px;
+}
+
+.social-medias{
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.social-medias li{
+    list-style: none;
+    padding-right: 43px;
+}
+
+.social-medias li a ion-icon{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #959595;
+    transition: 0.5s ease-in-out;
+}
+
+.social-medias .logo-whatsapp li a ion-icon:hover{
+    color: rgb(0, 255, 21);
+}
+
+
+.social-medias .logo-facebook li a ion-icon:hover{
+    color: rgb(0, 102, 255);
+}
+
+.social-medias .logo-Twitter li a ion-icon:hover{
+    color: rgb(0, 140, 255);
+}
+
+.social-medias .logo-Github li a ion-icon:hover{
+    color: #000;
+}
+
+.social-medias .logo-instagram li a ion-icon:hover{
+    color: brown;
+}

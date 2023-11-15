@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li , a , button{
+    font-family: 'Montserrat';
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500 ;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    height: 150px;
+    background-color: #F6F2F6;
+}
+
+.logo{
+    background-color: #F6F2F6;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav__links{
+    list-style: none;
+    background-color: #F6F2F6;
+}
+
+.nav__links li{
+    background-color: #F6F2F6;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a{
+    color: #000000;
+    background-color: #F6F2F6;
+    transition: 0.5s ease-in-out;
+}
+
+.nav__links li a:hover{
+    color: rgba(11, 221, 204, 0.8);
+}
+
+button{
+    color: #000000;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    background-color: #E1D5D9;
+    transition: 0.5s ease-in-out;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(2, 248, 228, 0.8);
+}
+
+/* */
+
+main{
+    background-color: #2F303A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main img{
+    justify-content: flex-start;
+    width: 676px;
+    height: 959px;
+    background: url(), lightgray 50% / cover no-repeat;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px ;
+    
+}
+
+.content h2{
+    color: #F6F2F6;
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content p{
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: #F6F2F6;
+}
+
+.content .btn{
+    color: #F6F2F6;
+    background-color: #B7A7AE;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    border-radius: 8px;
+}
+
+.content .btn:hover{
+    background-color: #c93432;
+}
+
+/* */
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px ;
+    background-color: #F6F2F6;
+}
+
+footer .nav__links li a:hover{
+    color: rgb(0, 159, 252) ;
+}
+
+.socialmedias{
+    list-style: none;
+}
+
+.socialmedias li{
+    display: inline-block;
+}
+
+.socialmedias li a ion-icon{
+    background-color: #F6F2F6;
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+    padding: 0px 40px;
+}
+
+.socialmedias li a ion-icon:hover{
+    color: rgb(0, 160, 252);
+}
